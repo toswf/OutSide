@@ -23,4 +23,9 @@ public class UserController {
         session.close();
         return "users";
     }
+
+    @RequestMapping(value = "add.do")
+    public boolean add(){
+
+    }
 }
