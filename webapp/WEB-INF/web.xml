@@ -32,4 +32,13 @@
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  <servlet>
+    <servlet-name>JsonRpcServerServlet</servlet-name>
+    <servlet-class>com.toswf.rpc.RpcServlet</servlet-class>
+    <load-on-startup>10</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JsonRpcServerServlet</servlet-name>
+    <url-pattern>/rpc</url-pattern>
+  </servlet-mapping>
 </web-app>

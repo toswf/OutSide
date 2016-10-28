@@ -17,7 +17,6 @@ import java.util.Map;
 public class DBConnection {
     private static final SessionFactory ourSessionFactory;
     private static final ServiceRegistry serviceRegistry;
-
     static {
         try {
             Configuration configuration = new Configuration();

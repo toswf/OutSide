@@ -11,7 +11,6 @@ import java.io.IOException;
  * Created by niuhao on 2016/10/27.
  */
 public class View {
-
     public static String showJson(HttpServletRequest request, HttpServletResponse response, JSONObject ret) throws IOException{
         if (ret == null){
             return null;

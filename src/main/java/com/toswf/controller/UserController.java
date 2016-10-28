@@ -2,15 +2,15 @@ package com.toswf.controller;
 
 import com.toswf.db.DBConnection;
 import com.toswf.db.entities.UserEntity;
+import com.toswf.util.View;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.View;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -35,7 +35,9 @@ public class UserController {
     @RequestMapping(value = "testAdd.do")
     public String testAdd(HttpServletRequest request, HttpServletResponse response) throws JSONException, IOException {
         addUser();
-        return null;
+        JSONObject jb = new JSONObject();
+        jb.append("ret", "OK");
+        return View.showJson(response,jb);
     }
 
     @RequestMapping(value = "register.do")
