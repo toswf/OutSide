@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>test3-mobile.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>235CAA2C30B35F58E930A9712D8D5D9FC189DD28</string>
+				<key>dateExpires</key>
+				<string>2019/12/29</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>LYLKQ6MZK2.com.gugu.aember</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>LYLKQ6MZK2</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>LYLKQ6MZK2.com.gugu.aember</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>test3-mobile.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>115a8a88-5b28-4163-b2fb-425807810a2a</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>LYLKQ6MZK2</string>
+				<key>name</key>
+				<string>TianYu Zhang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
