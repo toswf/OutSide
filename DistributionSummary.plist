@@ -13,11 +13,11 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>235CAA2C30B35F58E930A9712D8D5D9FC189DD28</string>
+				<string>B62E1BC0EA31EAAFE0B437F437FE177FF83E2FA0</string>
 				<key>dateExpires</key>
-				<string>2019/12/29</string>
+				<string>2019/12/21</string>
 				<key>type</key>
-				<string>iOS Distribution</string>
+				<string>iOS Development</string>
 			</dict>
 			<key>entitlements</key>
 			<dict>
@@ -26,7 +26,7 @@
 				<key>com.apple.developer.team-identifier</key>
 				<string>LYLKQ6MZK2</string>
 				<key>get-task-allow</key>
-				<false/>
+				<true/>
 				<key>keychain-access-groups</key>
 				<array>
 					<string>LYLKQ6MZK2.com.gugu.aember</string>
@@ -37,9 +37,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>115a8a88-5b28-4163-b2fb-425807810a2a</string>
+				<string>0d61a74f-daa7-45d5-990f-c12879922222</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+				<string>iOS Team Provisioning Profile: *</string>
 			</dict>
 			<key>team</key>
 			<dict>
