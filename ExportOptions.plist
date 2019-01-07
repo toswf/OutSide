@@ -14,7 +14,7 @@
 		<string>https://raw.githubusercontent.com/toswf/OutSide/master/image.512x512.png</string>
 	</dict>
 	<key>method</key>
-	<string>ad-hoc</string>
+	<string>development</string>
 	<key>signingStyle</key>
 	<string>automatic</string>
 	<key>stripSwiftSymbols</key>
